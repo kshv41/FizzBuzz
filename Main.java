@@ -4,10 +4,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
 	    String doAgain = "yes";
         while(doAgain.equals("yes"))
 	    {
-            Scanner scanner = new Scanner(System.in);
+            
             System.out.print("Enter the number:");
             byte input = scanner.nextByte();
 	    if (input % 3 == 0 && input % 5 == 0) System.out.println("FizzBuzz");
