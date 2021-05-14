@@ -1,4 +1,3 @@
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Main {
@@ -16,7 +15,7 @@ public class Main {
             else System.out.println(input);
             
 	    System.out.print("Enter yes to continue:");
-            doAgain = scanner.next().toLowercase();
+            doAgain = scanner.next().toLowerCase();
         }
     }
 }
