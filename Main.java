@@ -16,7 +16,7 @@ public class Main {
             else System.out.println(input);
             
 	    System.out.print("Enter yes to continue:");
-            doAgain = scanner.next();
+            doAgain = scanner.next().toLowercase();
         }
     }
 }
